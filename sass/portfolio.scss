@@ -1,0 +1,55 @@
+$blue: #0f8998;
+
+.portfolioContainer{
+    margin-top: 2em !important;
+}
+.portfolioFilter a {
+    color:#666;
+    text-decoration:none;
+
+    &.current{
+        color: $blue !important;
+        font-weight:bold;
+    }
+}
+ 
+ //Makes photos separated from each other 
+.separation{
+    margin-bottom: 1em;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+ 
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+
+    & .isotope-item {
+        -webkit-transition-property: -webkit-transform, opacity;
+        -moz-transition-property: -moz-transform, opacity;
+        transition-property: transform, opacity;
+    }
+}
+
+.margin{
+    margin-left: 2.5em !important;
+    margin-right: 2.5em !important;
+    @media screen and (max-width: 1207px){
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+}

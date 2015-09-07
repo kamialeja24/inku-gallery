@@ -1,0 +1,129 @@
+body {
+  background: #1e201f;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0px;
+}
+
+.title {
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+.subtitle {
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .subtitle {
+    font-size: 15px;
+  }
+}
+
+nav {
+  background-color: #2d3132 !important;
+}
+
+.logo {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-top: 25px;
+  }
+}
+
+ul.menu li a {
+  color: #fff !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+ul.menu li a:hover {
+  color: #0f8998 !important;
+}
+
+@media screen and (max-width: 1410px) {
+  ul.menu li a {
+    font-size: 0.9em !important;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  ul.menu li a {
+    font-size: 0.8em !important;
+  }
+}
+
+@media screen and (max-width: 1176px) {
+  ul.menu li a {
+    font-size: 0.7em !important;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  ul.menu li a {
+    font-size: 0.6em !important;
+  }
+}
+
+.mdi-navigation-menu {
+  margin-left: 10px;
+}
+
+.side-nav a {
+  color: #fff !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.side-nav a:hover {
+  color: #0f8998 !important;
+  font-weight: normal !important;
+}
+
+.side-nav li:hover, .side-nav li.active {
+  background-color: #2d3132 !important;
+}
+
+.parallax-container {
+  height: 400px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .parallax-container {
+    height: 200px !important;
+  }
+}
+
+/*---MODAL APPEARANCE---*/
+.remodal {
+  background: #2d3132 !important;
+}
+
+/*FOOTER*/
+.page-footer {
+  background-color: #2d3132 !important;
+}
+
+.footer-copyright {
+  text-align: center;
+  background-color: #2d3132 !important;
+}

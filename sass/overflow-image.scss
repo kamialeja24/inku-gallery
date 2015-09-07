@@ -1,0 +1,75 @@
+$blue: #0f8998;
+$font: 'Titillium Web', sans-serif;
+$font-color: #fff;
+
+@mixin position($position,$top,$left,$margin,$opacity){
+    position: $position;
+    top: $top;
+    left: $left;
+    margin: $margin;
+    opacity: $opacity;
+}
+
+span.roll {
+	position: absolute;
+  	width: 94%; 
+    height: 100%;
+    background: $blue;
+    opacity: 0.80;
+    display: inline-block;
+    @media screen and (max-width:1290px){
+		width: 93%; 
+	}
+    @media screen and (max-width:815px){
+        width: 92%; 
+    }
+    @media screen and (max-width:600px){
+        width: 96%; 
+    }
+    @media screen and (max-width:485px){
+        width: 95%; 
+    }
+} 
+
+.image-position{
+	position: relative;
+}
+
+.text-overlay{
+    text-align: center;
+    color: $font-color;
+    font-family: $font;
+}
+
+.center{
+    @include position(absolute,50%,50%,-16px 0 0 -16px,1);
+    line-height: 1em;    
+}
+
+
+.title-description-top{
+    padding-top: 10%;
+    @media screen and (max-width:860px){
+        font-size: 1.4em;
+    }
+    @media screen and (max-width:700px){
+        font-size: 1.3em;
+    }
+    @media screen and (max-width:600px){
+        font-size: 1.4em;
+    } 
+}
+.title-description-bottom{
+    position: relative;
+    top: 28%;
+    font-size: 1.3em;
+   @media screen and (max-width:860px){
+        font-size: 1.1em;
+    } 
+    @media screen and (max-width:700px){
+        font-size: 1em;
+    }
+    @media screen and (max-width:600px){
+        font-size: 1.2em;
+    } 
+}

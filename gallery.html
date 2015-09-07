@@ -1,0 +1,682 @@
+<!DOCTYPE html5>
+<html lang="es">
+  <head>
+    <title>Portafolio Inku</title>
+  </head>
+  <!--Inku template-->
+  <meta charset="utf-8"/>
+  <!--content is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+  <link rel="stylesheet" type="text/css" href="css/overflow-image.css"/>
+  <link rel="stylesheet" type="text/css" href="css/before-after.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+  <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
+  <link rel="stylesheet" type="text/css" href="css/remodal.css"/>
+  <link rel="stylesheet" type="text/css" href="css/remodal-default-theme.css"/>
+  <!--Google fonts-->
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900"/>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css" media="screen,projection"/>
+  <!--Favicon-->
+  <link href="img/filter-icon.png" rel="icon" type="image/x-icon"/>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col l2 s4"><a href="http://materializecss.com/getting-started.html"><img src="img/logo.png" class="logo"/></a></div>
+          <div class="col l8 s4 title">Portafolio</div>
+          <div class="col l2 s4"></div>
+        </div>
+        <div class="row">
+          <div style="color: #1e201f" class="col l1 s2">i</div>
+          <div class="col l10 s8 subtitle">Algunos proyectos recientes, cuéntanos tu proyecto.	</div>
+          <div style="color: #1e201f" class="col l1 s2">i</div>
+        </div>
+      </div>
+      <!--navbar-->
+      <nav>
+        <div class="nav-wrapper"><a href="#" data-activates="mobile" class="button-collapse"><i class="mdi-navigation-menu"></i>
+            <ul class="portfolioFilter menu left hide-on-med-and-down">
+              <li class="active left"><a href="#" data-filter="*" class="current">Todos los proyectos</a></li>
+            </ul></a>
+          <ul class="portfolioFilter menu right hide-on-med-and-down">
+              <li><a href="#" data-filter=".graphic-design">Diseño gráfico</a></li>
+              <li><a href="#" data-filter=".brand">Marca / Identidad</a></li>
+              <li><a href="#" data-filter=".product-design">Diseño Producto / Local</a></li>
+              <li><a href="#" data-filter=".photografy">Fotografía / Postproducción</a></li>
+              <li><a href="#" data-filter=".3D">	3D / CGI</a></li>
+              <li><a href="#" data-filter=".ilustration">Ilustración</a></li>
+              <li><a href="#" data-filter=".video-animation">Video /animación</a></li>
+              <li><a href="#" data-filter=".apps-web">	Desarrollo / apps / Web</a></li>
+          </ul>
+          <ul id="mobile" class="portfolioFilter mobile-menu side-nav grey darken-4">
+            <li class="active"><a href="#" data-filter="*" class="current">Todos los proyectos</a></li>
+              <li><a href="#" data-filter=".graphic-design">Diseño gráfico</a></li>
+              <li><a href="#" data-filter=".brand">Marca / Identidad</a></li>
+              <li><a href="#" data-filter=".product-design">Diseño Producto / Local</a></li>
+              <li><a href="#" data-filter=".photografy">Fotografía / Postproducción</a></li>
+              <li><a href="#" data-filter=".3D">	3D / CGI</a></li>
+              <li><a href="#" data-filter=".ilustration">Ilustración</a></li>
+              <li><a href="#" data-filter=".video-animation">Video /animación</a></li>
+              <li><a href="#" data-filter=".apps-web">	Desarrollo / apps / Web</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--parallax-->
+    <div id="index-banner" class="parallax-container">
+      <div class="parallax"><img src="img/image01.jpg"/></div>
+    </div>
+    <!--end parallax-->
+    <!--Gallery	-->
+    <div class="portfolioContainer row margin">
+      <!--01 Hospital-->
+      <div class="col l3 m3 3D video-animation separation image-position"><a href="#modal" data-remodal-target="modal1"><span class="roll text-overlay">
+            <h5 class="title-description-top">Hospital Universitario</h5>
+            <p class="title-description-bottom">3D / Video / Animación</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/01-Hosp-meredi-3D.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 graphic-design photografy separation image-position"><a href="#modal" data-remodal-target="modal2"><span class="roll text-overlay">
+            <h5 class="title-description-top">Libro «Hambre»</h5>
+            <p class="title-description-bottom">Diseño / Post / Editorial</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/02-Libro-hambre.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 photografy separation image-position"><a href="#modal" data-remodal-target="modal3"><span class="roll text-overlay">
+            <h5 class="title-description-top">Bodytech</h5>
+            <p class="title-description-bottom">Postproducción</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/03-Bodytech.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 brand ilustration separation image-position"><a href="#modal" data-remodal-target="modal4"><span class="roll text-overlay">
+            <h5 class="title-description-top">Hacienda Santa Ana</h5>
+            <p class="title-description-bottom">Ilustración / Marca</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/04-Hacienda-santaAna.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 ilustration-graphic-deisgn separation image-position"><a href="#modal" data-remodal-target="modal5"><span class="roll text-overlay">
+            <h5 class="title-description-top">Areandina</h5>
+            <p class="title-description-bottom">Ilustración / Editorial / Diseño</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/05-Areandina.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 graphic-design photografy ilustration separation image-position"><a href="#modal" data-remodal-target="modal6"><span class="roll text-overlay">
+            <h5 class="title-description-top">Pinturas Corona</h5>
+            <p class="title-description-bottom">Post / Ilustración</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/06-pinturas-corona.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 photografy separation image-position"><a href="#modal" data-remodal-target="modal7"><span class="roll text-overlay">
+            <h5 class="title-description-top">Sierra Nevada</h5>
+            <p class="title-description-bottom">Postproducción</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/07-Sierra-Nevada.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 brand ilustration product-design separation image-position"><a href="#modal" data-remodal-target="modal8"><span class="roll text-overlay">
+            <h5 class="title-description-top">Vital Advance Labs</h5>
+            <p class="title-description-bottom">Diseño / Ilustración / Marca</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/08-Vital-advance-labs-Teiku.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 photografy ilustration separation image-position"><a href="#modal" data-remodal-target="modal9"><span class="roll text-overlay">
+            <h5 class="title-description-top">Toshiro</h5>
+            <p class="title-description-bottom">Postproducción / Ilustración</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/09-Toshiro.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 product-design separation image-position"><a href="#modal" data-remodal-target="modal10"><span class="roll text-overlay">
+            <h5 class="title-description-top">La Suprema</h5>
+            <p class="title-description-bottom">Diseño de producto</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/10-Suprema.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 graphic-design brand ilustration separation image-position"><a href="#modal" data-remodal-target="modal11"><span class="roll text-overlay">
+            <h5 class="title-description-top">Artist Mecca</h5>
+            <p class="title-description-bottom">Marca / Ilustración</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/11-Artist-Mecca.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 ilustration separation image-position"><a href="#modal" data-remodal-target="modal12"><span class="roll text-overlay">
+            <h5 class="title-description-top">Unicentro Navidad</h5>
+            <p class="title-description-bottom">3D / Ilustración</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/12-Unicentro-navidad.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 photografy separation image-position"><a href="#modal" data-remodal-target="modal13"><span class="roll text-overlay">
+            <h5 class="title-description-top">The Record Lovers</h5>
+            <p class="title-description-bottom">Fotografía</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/13-The-record-lovers.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 graphic-design brand separation image-position"><a href="#modal" data-remodal-target="modal14"><span class="roll text-overlay">
+            <h5 class="title-description-top">A La Postre</h5>
+            <p class="title-description-bottom">Marca / Diseño / Ilustración</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/14-a-la-postre.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 apps-web brand separation image-position"><a href="#modal" data-remodal-target="modal15"><span class="roll text-overlay">
+            <h5 class="title-description-top">Helena Caballero</h5>
+            <p class="title-description-bottom">Web</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/15-Helena-Caballero-Web.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 photografy separation image-position"><a href="#modal" data-remodal-target="modal16"><span class="roll text-overlay">
+            <h5 class="title-description-top">Laura y la máquina de escribir</h5>
+            <p class="title-description-bottom">Fotografía</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/16-Laura-y-la-maquina-de-escribir.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 3D video-animation separation image-position"><a href="#modal" data-remodal-target="modal17"><span class="roll text-overlay">
+            <h5 class="title-description-top">La máquina del tiempo</h5>
+            <p class="title-description-bottom">3D / Video / Animación</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/17-La-maquina-del-tiempo.jpg" alt="image" class="responsive-img"/></a></div>
+      <div class="col l3 m3 photografy separation image-position"><a href="#modal" data-remodal-target="modal18"><span class="roll text-overlay">
+            <h5 class="title-description-top">Postproducción</h5>
+            <p class="title-description-bottom">para fotografos y artístas</p><i class="fa fa-plus fa-2x center"></i></span><img src="img/thumbs/18-Post-para-artistas.jpg" alt="image" class="responsive-img"/></a></div>
+    </div>
+    <!--Modals-->
+    <div class="remodal-lg">
+      <!--Hospital Universitario-->
+      <div data-remodal-id="modal1" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="hospital-universitario" class="rslides">
+            <!--li
+            .video-container
+            	p.top-caption Hospital Universitario Mayor Méderi Modelado 3D-Infografías animadas Cliente: Compensar-Universidad del rosario
+            	iframe(src="https://www.youtube.com/embed/i-3izH2xrWM", frameborder="0", allowfullscreen)
+            -->
+            <!--	li
+            p.top-caption Serie de fotos Sierra Nevada / Postproducción - Diseño de color
+            #comparison-1
+            	figure
+            		#divisor1
+            	input(type="range", min="0", max="100", value="50", id="slider1", oninput="moveDivisor()")
+            -->
+            <li>
+              <div class="video-container">
+                <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+                <iframe src="http://player.vimeo.com/video/17914974">		</iframe>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Libro Hambre	-->
+      <div data-remodal-id="modal2" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="libro-hambre" class="rslides">
+            <li>
+              <p class="top-caption">Libro «Hambre» de Fabio Polanco</p><img src="img/carousel/02Hambre/Hambre-01.jpg"/>
+              <p class="bottom-caption">Fotos: Juan Pablo Polanco - Postproducción, Diseño y diagramación: Inku	</p>
+            </li>
+            <li>
+              <p class="top-caption">Libro «Hambre» de Fabio Polanco</p><img src="img/carousel/02Hambre/Hambre-02.jpg"/>
+              <p class="bottom-caption">Fotos: Juan Pablo Polanco - Postproducción, Diseño y diagramación: Inku	</p>
+            </li>
+            <li>
+              <p class="top-caption">Libro «Hambre» de Fabio Polanco</p><img src="img/carousel/02Hambre/Hambre-03.jpg"/>
+              <p class="bottom-caption">Fotos: Juan Pablo Polanco - Postproducción, Diseño y diagramación: Inku	</p>
+            </li>
+            <li>
+              <p class="top-caption">Libro «Hambre» de Fabio Polanco</p><img src="img/carousel/02Hambre/Hambre-04.jpg"/>
+              <p class="bottom-caption">Fotos: Juan Pablo Polanco - Postproducción, Diseño y diagramación: Inku	</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Bodytech	-->
+      <div data-remodal-id="modal3" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="bodytech" class="rslides">
+            <li>
+              <p class="top-caption">Bodytech #LoMejorDeMi / Postproducción</p><img src="img/carousel/03Bodytech/Body-01.jpg"/>
+              <p class="bottom-caption">Fotos: Camilo Rozo - Postproducción: Inku- Cliente: Bodytech Colombia / Perú</p>
+            </li>
+            <li>
+              <p class="top-caption">Bodytech #LoMejorDeMi / Postproducción</p><img src="img/carousel/03Bodytech/Body-02.jpg"/>
+              <p class="bottom-caption">Fotos: Camilo Rozo - Postproducción: Inku- Cliente: Bodytech Colombia / Perú</p>
+            </li>
+            <li>
+              <p class="top-caption">Bodytech #LoMejorDeMi / Postproducción</p><img src="img/carousel/03Bodytech/Body-03.jpg"/>
+              <p class="bottom-caption">Fotos: Camilo Rozo - Postproducción: Inku- Cliente: Bodytech Colombia / Perú</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Hacienda Santa Ana	-->
+      <div data-remodal-id="modal4" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="hacienda-santa-ana" class="rslides">
+            <li>
+              <p class="top-caption">Logo Hacienda Santa Anaducción</p><img src="img/carousel/04SantaAna/Santa-Ana-01.jpg"/>
+              <p class="bottom-caption">Creación de branding - Cliente: Hacienda Santa Ana</p>
+            </li>
+            <li>
+              <p class="top-caption">Logo Hacienda Santa Anaducción</p><img src="img/carousel/04SantaAna/Santa-Ana-02.jpg"/>
+              <p class="bottom-caption">Creación de branding - Cliente: Hacienda Santa Ana</p>
+            </li>
+            <li>
+              <p class="top-caption">Logo Hacienda Santa Anaducción</p><img src="img/carousel/04SantaAna/Santa-Ana-03.jpg"/>
+              <p class="bottom-caption">Creación de branding - Cliente: Hacienda Santa Ana</p>
+            </li>
+            <li>
+              <p class="top-caption">Logo Hacienda Santa Anaducción</p><img src="img/carousel/04SantaAna/Santa-Ana-04.jpg"/>
+              <p class="bottom-caption">Creación de branding - Cliente: Hacienda Santa Ana</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Areandina	-->
+      <div data-remodal-id="modal5" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="areandina" class="rslides">
+            <li>
+              <p class="top-caption">Areandina / Detalle de ilustraciones</p><img src="img/carousel/05Areandina/areandina-01.jpg"/>
+              <p class="bottom-caption">Cliente: Areandina - Secretaria de salud / Ilustración, diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Areandina / Detalle de ilustraciones</p><img src="img/carousel/05Areandina/cartilla-02.jpg"/>
+              <p class="bottom-caption">Cliente: Areandina - Secretaria de salud / Ilustración, diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Areandina / Diseño de portadas</p><img src="img/carousel/05Areandina/cartilla-03.jpg"/>
+              <p class="bottom-caption">Cliente: Areandina - Secretaria de salud / Ilustración, diseño y diagramación: Inku</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Pinturas Corona	-->
+      <div data-remodal-id="modal6" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="pinturas-corona" class="rslides">
+            <li>
+              <p class="top-caption">Pinturas Corona / Fotos Originales</p><img src="img/carousel/06Pinturas-corona/corona-01.jpg"/>
+              <p class="bottom-caption">Cliente: Pinturas Corona / Postproducción, Composición digital e iustración: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Pinturas Corona / Resultado final</p><img src="img/carousel/06Pinturas-corona/corona-02.jpg"/>
+              <p class="bottom-caption">Cliente: Pinturas Corona / Postproducción, Composición digital e iustración: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Pinturas Corona / Ilustración digital De empaque</p><img src="img/carousel/06Pinturas-corona/corona-03.jpg"/>
+              <p class="bottom-caption">Cliente: Pinturas Corona / Postproducción, Composición digital e iustración: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Pinturas Corona / Artes finales</p><img src="img/carousel/06Pinturas-corona/corona-04.jpg"/>
+              <p class="bottom-caption">Cliente: Pinturas Corona / Postproducción, Composición digital e iustración: Inku</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Sierra Nevada	-->
+      <div data-remodal-id="modal7" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="sierra-nevada" class="rslides">
+            <li>
+              <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+              <div id="comparison-1">
+                <figure>
+                  <div id="divisor1"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider1" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+              <div id="comparison-2">
+                <figure>
+                  <div id="divisor2"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider2" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+              <div id="comparison-3">
+                <figure>
+                  <div id="divisor3"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider3" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+              <div id="comparison-4">
+                <figure>
+                  <div id="divisor4"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider4" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+              <div id="comparison-5">
+                <figure>
+                  <div id="divisor5"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider5" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+              <div id="comparison-6">
+                <figure>
+                  <div id="divisor6"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider6" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Serie de fotos Sierra Nevada / Postproducción - Diseño de color</p>
+              <div id="comparison-7">
+                <figure>
+                  <div id="divisor7"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider7" oninput="moveDivisor()"/>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Vital Advance Labs	-->
+      <div data-remodal-id="modal8" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="vital-advance" class="rslides">
+            <li>
+              <p class="top-caption">Vital Advance Labs / Diseño de logo</p><img src="img/carousel/08Vital-advance-labs/Vital-Advanced-01.jpg"/>
+              <p class="bottom-caption">Cliente: Vital Advance Labs / Diseño e ilustración: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Vital Advance Labs / Naming / Diseño de logo producto</p><img src="img/carousel/08Vital-advance-labs/Vital-Advanced-02.jpg"/>
+              <p class="bottom-caption">Cliente: Vital Advance Labs / Diseño e ilustración: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Vital Advance Labs / Diseño de empaque y etiquetas</p><img src="img/carousel/08Vital-advance-labs/Vital-Advanced-03.jpg"/>
+              <p class="bottom-caption">Cliente: Vital Advance Labs / Diseño e ilustración: Inku</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Toshiro	-->
+      <div data-remodal-id="modal9" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="toshiro" class="rslides">
+            <li>
+              <p class="top-caption">Toshiro / Postproducción e ilustración digital</p><img src="img/carousel/09Toshiro/Toshiro-01.jpg"/>
+              <p class="bottom-caption">Resultado final - Fotografía: Jorge Gamboa</p>
+            </li>
+            <li>
+              <p class="top-caption">Toshiro / Proceso de postproducción</p>
+              <div id="comparison-8">
+                <figure>
+                  <div id="divisor8"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider8" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Toshiro / Proceso de postproducción</p>
+              <div id="comparison-9">
+                <figure>
+                  <div id="divisor9"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider9" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Toshiro / Aplicación Fachada</p><img src="img/carousel/09Toshiro/Toshiro-04.jpg"/>
+              <p class="bottom-caption">Fotografía: Nicolas Rosas</p>
+            </li>
+            <li>
+              <p class="top-caption">Toshiro / Aplicación interior y exterior</p><img src="img/carousel/09Toshiro/Toshiro-05.jpg"/>
+              <p class="bottom-caption">Foto labios: Nicolas Rosas - Foto Puerta: Inku - Foto barra: Cortesía Registraduria Civil.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Panaderia Suprema	-->
+      <div data-remodal-id="modal10" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="suprema" class="rslides">
+            <li>
+              <p class="top-caption">Pan Suprema / Rediseño puntos de venta</p><img src="img/carousel/10Suprema/Suprema-01.jpg"/>
+              <p class="bottom-caption">Diseño Interior - Industrial: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Pan Suprema / Rediseño puntos de venta / Diseño Fachadas</p><img src="img/carousel/10Suprema/Suprema-02.jpg"/>
+              <p class="bottom-caption">Diseño Interior - Industrial: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Pan Suprema / Manual de punto de venta</p><img src="img/carousel/10Suprema/Suprema-03.jpg"/>
+              <p class="bottom-caption">Diseño Interior - Industrial: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Pan Suprema / Resultado</p>
+              <div id="comparison-10">
+                <figure>
+                  <div id="divisor10"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider10" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Pan Suprema / Resultado</p>
+              <div id="comparison-11">
+                <figure>
+                  <div id="divisor11"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider11" oninput="moveDivisor()"/>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Artist Mecca-->
+      <div data-remodal-id="modal11" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="artist-mecca" class="rslides">
+            <li>
+              <p class="top-caption">Artist Mecca / Diseño de logo</p><img src="img/carousel/11Artist-Mecca/Artist-Mecca-01.jpg"/>
+              <p class="bottom-caption">Ilustración, diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Artist Mecca / Diseño de logo</p><img src="img/carousel/11Artist-Mecca/Artist-Mecca-02.jpg"/>
+              <p class="bottom-caption">Ilustración, diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Artist Mecca / Diseño de logo</p><img src="img/carousel/11Artist-Mecca/Artist-Mecca-03.jpg"/>
+              <p class="bottom-caption">Ilustración, diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Artist Mecca / Diseño de logo</p><img src="img/carousel/11Artist-Mecca/Artist-Mecca-04.jpg"/>
+              <p class="bottom-caption">Ilustración, diseño y diagramación: Inku			</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Unicentro Navidad-->
+      <div data-remodal-id="modal12" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="unicentro-navidad" class="rslides">
+            <li>
+              <p class="top-caption">Unicentro / Vive tu cuento de navidad / Composición Digital, 3D</p>
+              <div id="comparison-12">
+                <figure>
+                  <div id="divisor12"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider12" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Unicentro / Vive tu cuento de navidad / Composición Digital, 3D</p><img src="img/carousel/12Unicentro-Navidad/Unicentro-navidad-02.jpg"/>
+              <p class="bottom-caption">Foto libro, modelos: Jorge Gamboa - Agencia: Torolove / Composición Digital, 3D: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Unicentro / Vive tu cuento de navidad / Composición Digital, 3D</p><img src="img/carousel/12Unicentro-Navidad/Unicentro-navidad-03.jpg"/>
+              <p class="bottom-caption">Foto libro, modelos: Jorge Gamboa - Agencia: Torolove / Composición Digital, 3D: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Unicentro / Vive tu cuento de navidad / Composición Digital, 3D</p><img src="img/carousel/12Unicentro-Navidad/Unicentro-navidad-04.jpg"/>
+              <p class="bottom-caption">Foto libro, modelos: Jorge Gamboa - Agencia: Torolove / Composición Digital, 3D: Inku</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--The Record Lovers	-->
+      <div data-remodal-id="modal13" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="TRL" class="rslides">
+            <li>
+              <p class="top-caption">The Record Lovers</p><img src="img/carousel/13TRL/TRL-01.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">The Record Lovers</p><img src="img/carousel/13TRL/TRL-02.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">The Record Lovers</p><img src="img/carousel/13TRL/TRL-03.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">The Record Lovers</p><img src="img/carousel/13TRL/TRL-04.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku				</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--A la postre-->
+      <div data-remodal-id="modal14" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="a-la-postre" class="rslides">
+            <li>
+              <p class="top-caption">A La Postre / Diseño de logo</p>
+              <div id="comparison-13">
+                <figure>
+                  <div id="divisor13"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider13" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">A La Postre / Diseño cajas y aviso.</p><img src="img/carousel/14A-La-Postre/Alapostre-02.jpg"/>
+              <p class="bottom-caption">Diseño e ilustración: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">A La Postre / Aplicación aviso / Carta</p><img src="img/carousel/14A-La-Postre/Alapostre-03.jpg"/>
+              <p class="bottom-caption">Diseño e ilustración: Inku - Foto fachada: Cortesía A la poste.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Helena Caballero	-->
+      <div data-remodal-id="modal15" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="helena-caballero" class="rslides">
+            <li>
+              <p class="top-caption">Helena Caballero / Diseño de logo / Web</p><img src="img/carousel/15Helena-Caballero/helena-Caballero-01.jpg"/>
+              <p class="bottom-caption">Diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Helena Caballero / Diseño de logo / Web</p><img src="img/carousel/15Helena-Caballero/helena-Caballero-02.jpg"/>
+              <p class="bottom-caption">Diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Helena Caballero / Diseño de logo / Web</p><img src="img/carousel/15Helena-Caballero/helena-Caballero-03.jpg"/>
+              <p class="bottom-caption">Diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Helena Caballero / Diseño de logo / Web</p><img src="img/carousel/15Helena-Caballero/helena-Caballero-04.jpg"/>
+              <p class="bottom-caption">Diseño y diagramación: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Helena Caballero / Logo</p><img src="img/carousel/15Helena-Caballero/helena-Caballero-05.jpg"/>
+              <p class="bottom-caption">Diseño y diagramación: Inku				</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--	Laura y la maquina de escribir-->
+      <div data-remodal-id="modal16" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="laura-maquina" class="rslides">
+            <li>
+              <p class="top-caption">Laura y la máquina de escribir</p><img src="img/carousel/16Laura-y-la-maquina-de-escribir/laura-y-la-mde-01.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Laura y la máquina de escribir</p><img src="img/carousel/16Laura-y-la-maquina-de-escribir/laura-y-la-mde-02.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Laura y la máquina de escribir</p><img src="img/carousel/16Laura-y-la-maquina-de-escribir/laura-y-la-mde-03.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku</p>
+            </li>
+            <li>
+              <p class="top-caption">Laura y la máquina de escribir</p><img src="img/carousel/16Laura-y-la-maquina-de-escribir/laura-y-la-mde-04.jpg"/>
+              <p class="bottom-caption">Fotografía: Inku			</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 	La maquina del tiempo-->
+      <div data-remodal-id="modal17" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="maquina-tiempo" class="rslides">
+            <li>
+              <div class="video-container">
+                <p class="top-caption">La Máquina Del Tiempo Edición/WFX- Inku Cliente: Granada Garces Arquitectos - Devaldenebro Ingenieros</p>
+              </div>
+              <!--	iframe(src="https://www.youtube.com/embed/cLDVMgn9ZlE")-->
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--	Postproduccion-->
+      <div data-remodal-id="modal18" class="remodal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="callbacks_container">
+          <ul id="postproduccion" class="rslides">
+            <li>
+              <p class="top-caption">Procesos de postproducción especializados para fotografos y artistas</p>
+              <div id="comparison-14">
+                <figure>
+                  <div id="divisor14"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider14" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Procesos de postproducción especializados para fotografos y artistas</p>
+              <div id="comparison-15">
+                <figure>
+                  <div id="divisor15"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider15" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Procesos de postproducción especializados para fotografos y artistas</p>
+              <div id="comparison-16">
+                <figure>
+                  <div id="divisor16"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider16" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Procesos de postproducción especializados para fotografos y artistas</p>
+              <div id="comparison-17">
+                <figure>
+                  <div id="divisor17"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider17" oninput="moveDivisor()"/>
+              </div>
+            </li>
+            <li>
+              <p class="top-caption">Procesos de postproducción especializados para fotografos y artistas</p>
+              <div id="comparison-18">
+                <figure>
+                  <div id="divisor18"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider18" oninput="moveDivisor()"/>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER		-->
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">©2015 INKU. OTRO PROYECTO INKU CODEX</div>
+      </div>
+    </footer>
+    <!--bower:js-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="bower_components/materialize/dist/js/materialize.js"></script>
+    <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script src="bower_components/isotope/dist/isotope.pkgd.js">		</script>
+    <!--js-->
+    <script src="js/main.js">		</script>
+    <script src="js/remodal.min.js"></script>
+    <script src="js/before-after.js">		</script>
+    <script src="js/responsiveslides.min.js"></script>
+  </body>
+</html>

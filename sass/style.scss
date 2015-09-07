@@ -1,0 +1,117 @@
+$dark-grey: #1e201f;
+$grey: #2d3132;
+$dark-blue: #033b4e;
+$blue: #0f8998;
+
+$font: 'Titillium Web', sans-serif;
+$font-color: #fff;
+
+
+
+body{
+	background: $dark-grey;
+	margin: 0; 
+	padding: 0;
+}
+
+img {border:0px;}
+
+.title{
+	color: $font-color;
+	font-family: $font;
+	font-weight: 300;
+	line-height: 1.5em;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 40px;
+	@media screen and (max-width:600px){
+		font-size: 30px;
+	}
+
+}
+
+
+.subtitle{
+	color: $font-color;
+	font-family: $font;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 2.5em;
+
+	@media screen and (max-width:600px){
+		font-size: 15px;
+	}
+}
+
+nav{
+	background-color: $grey !important;
+}
+.logo{
+	margin-top: 40px;
+	@media screen and (max-width:600px){
+		margin-top: 25px;
+	}
+}
+
+ul.menu li a{
+	color: $font-color !important;
+	font-family: $font !important;
+
+	&:hover {
+		color: $blue !important;
+	}
+	@media screen and (max-width:1410px){
+		font-size: 0.9em !important;
+	}
+	@media screen and (max-width:1300px){
+		font-size: 0.8em !important;
+	}
+	@media screen and (max-width:1176px){
+		font-size: 0.7em !important;
+	}
+	@media screen and (max-width:1075px){
+		font-size: 0.6em !important;
+	}
+}
+.mdi-navigation-menu{
+	margin-left: 10px;
+}
+
+.side-nav{
+	& a{
+	color: $font-color !important;
+	font-family: $font !important;
+		&:hover {
+			color: $blue !important;
+			font-weight: normal !important;
+		}
+	}
+	& li:hover, & li.active{
+		 background-color: $grey !important;
+	}
+}
+
+.parallax-container {
+	height: 400px !important;
+
+	@media screen and (max-width:600px){
+		height: 200px !important;
+	}
+}
+
+
+/*---MODAL APPEARANCE---*/
+.remodal{
+	background: $grey !important;
+}
+
+
+/*FOOTER*/
+.page-footer{
+	background-color: $grey !important;
+	
+}
+.footer-copyright{
+	text-align: center;
+	background-color: $grey !important;
+}

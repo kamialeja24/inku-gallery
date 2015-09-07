@@ -1,0 +1,26 @@
+header
+	.container
+		.row
+			.col.l2.s4: a(href="http://materializecss.com/getting-started.html")
+				img.logo(src="img/logo.png") 
+			.col.l8.s4.title Portafolio
+			.col.l2.s4
+		.row
+			.col.l1.s2(style="color: #1e201f") i
+			.col.l10.s8.subtitle Algunos proyectos recientes, cuéntanos tu proyecto.	
+			.col.l1.s2(style="color: #1e201f") i
+	//navbar
+	nav:.nav-wrapper
+		a.button-collapse(href="#", data-activates="mobile")
+			i.mdi-navigation-menu
+			ul.portfolioFilter.menu.left.hide-on-med-and-down
+				li.active.left: a(href="#" data-filter="*" class="current") Todos los proyectos
+		ul.portfolioFilter.menu.right.hide-on-med-and-down
+			+menu-list
+		ul.portfolioFilter.mobile-menu.side-nav#mobile.grey.darken-4
+			li.active: a(href="#" data-filter="*" class="current") Todos los proyectos
+			+menu-list
+//parallax
+#index-banner.parallax-container
+	.parallax: img(src="img/image01.jpg")		
+//end parallax

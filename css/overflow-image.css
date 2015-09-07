@@ -1,0 +1,97 @@
+span.roll {
+  position: absolute;
+  width: 94%;
+  height: 100%;
+  background: #0f8998;
+  opacity: 0.80;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1290px) {
+  span.roll {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  span.roll {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span.roll {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  span.roll {
+    width: 95%;
+  }
+}
+
+.image-position {
+  position: relative;
+}
+
+.text-overlay {
+  text-align: center;
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -16px 0 0 -16px;
+  opacity: 1;
+  line-height: 1em;
+}
+
+.title-description-top {
+  padding-top: 10%;
+}
+
+@media screen and (max-width: 860px) {
+  .title-description-top {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .title-description-top {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title-description-top {
+    font-size: 1.4em;
+  }
+}
+
+.title-description-bottom {
+  position: relative;
+  top: 28%;
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 860px) {
+  .title-description-bottom {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .title-description-bottom {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title-description-bottom {
+    font-size: 1.2em;
+  }
+}
