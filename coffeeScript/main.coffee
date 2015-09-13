@@ -159,6 +159,16 @@
 		 	pager: false
 		 	nav: true
 		 	speed: 500
-		 	namespace: "callbacks"						
+		 	namespace: "callbacks"		
+
+		 #Stop Video when outside modal
+		 $('body').click ->
+		 	videoHospital = $("#video-hospital").attr("src")
+		 	$("#video-hospital").attr("src","")
+		 	$("#video-hospital").attr("src",videoHospital)
+		 	videoMaquina = $("#video-maquina").attr("src")
+		 	$("#video-maquina").attr("src","")
+		 	$("#video-maquina").attr("src",videoMaquina)
+		 	return
 		return
 

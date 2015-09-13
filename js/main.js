@@ -175,6 +175,15 @@
       speed: 500,
       namespace: "callbacks"
     });
+    $('body').click(function() {
+      var videoHospital, videoMaquina;
+      videoHospital = $("#video-hospital").attr("src");
+      $("#video-hospital").attr("src", "");
+      $("#video-hospital").attr("src", videoHospital);
+      videoMaquina = $("#video-maquina").attr("src");
+      $("#video-maquina").attr("src", "");
+      $("#video-maquina").attr("src", videoMaquina);
+    });
   });
 
 }).call(this);
